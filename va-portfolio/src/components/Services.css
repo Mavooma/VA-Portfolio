@@ -22,7 +22,7 @@
   
   /* Individual service card */
   .service-card {
-    background-color: #da876e; /* Light background color for the service card */
+    background-color: white; /* Light background color for the service card */
     padding: 20px;
     border-radius: 10px;
     text-align: center;

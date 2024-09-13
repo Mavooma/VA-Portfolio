@@ -4,23 +4,18 @@ import './Portfolio.css';
 const projects = [
   {
     title: "Administrative Services",
-    description: "A React-based weather application using an external API for real-time weather data.",
-    image: "/assets/images/Calendar.png", // Replace with actual image file name in public folder
+    description: "I streamline workflows by managing tasks, handling communications, organizing documents, maintaining schedules, coordinating travel arrangements, and providing personal assistance to ensure efficiency and focus.",
+    image: "/assets/images/1.png", // Replace with actual image file name in public folder
   },
   {
     title: "Web Development",
-    description: "A blog built with React, featuring responsive design and dynamic components.",
+    description: "I create user-friendly websites by designing responsive layouts, optimizing performance, ensuring accessibility, integrating APIs, enhancing SEO, and implementing secure coding practices for a seamless user experience.",
     image: "/assets/images/Hero2.png", // Replace with actual image file name in public folder
   },
   {
     title: "Social Media Management",
-    description: "A professional website for showcasing virtual assistant services, built with HTML, CSS, and JavaScript.",
-    image: "/assets/images/S.webp", // Replace with actual image file name in public folder
-  },
-  {
-    title: "Content Creation",
-    description: "A personal portfolio showcasing projects and skills, designed with a mobile-first approach.",
-    image: "/assets/images/ugc.png", // Replace with actual image file name in public folder
+    description: "I manage social media by creating engaging content, scheduling posts, monitoring analytics, fostering audience engagement, running targeted campaigns, and maintaining brand consistency across platforms.",
+    image: "/assets/images/2.png", // Replace with actual image file name in public folder
   },
 ];
 

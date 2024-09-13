@@ -4,7 +4,7 @@
   justify-content: space-between;
   padding: 50px;
   background-color: #e2d7ca; 
-  color: #ffffff;
+  color: #da876e;
 }
 
 .contact-left {
@@ -97,7 +97,7 @@ input[type="checkbox"] {
 .submit-button {
   margin-top: 20px;
   padding: 12px; /* Reduced button size */
-  background-color: #7f8c8d;
+  background-color: #ff4500;
   color: white;
   border: none;
   border-radius: 5px;
@@ -107,7 +107,7 @@ input[type="checkbox"] {
 }
 
 .submit-button:hover {
-  background-color: #34495e;
+  background-color: #da876e;
 }
 
 /* Responsive adjustments */

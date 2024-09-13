@@ -15,7 +15,7 @@ const HeroSection = () => {
           I specialize in providing professional support to help you manage your tasks efficiently. Whether it's administrative work, social media management, or customer service, I’m here to lighten your load, allowing you to focus on what really matters.
           </p><br />
           <p>Let’s take your business to the next level together.</p><br />
-          <a href="/path/to/your/cv.pdf" download className="hero-button">Download CV</a>
+          <a href="/assets/images/Vuyelwa.pdf" download className="hero-button">Download CV</a>
         </div>
       </div>
     </section>
