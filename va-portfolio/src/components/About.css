@@ -71,6 +71,62 @@
   border-radius: 4px;
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero {
+    margin-top: 50px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .content-section {
+    flex-direction: column; /* Stack text and image vertically */
+    padding: 20px;
+  }
+
+  .text-content {
+    flex: 1 1 100%; /* Full width for smaller screens */
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .image-content {
+    flex: 1 1 100%;
+  }
+
+  .text-content h2 {
+    font-size: 1.5em;
+  }
+
+  .text-content p {
+    font-size: 14px;
+  }
+
+  .hero-image, .section-image {
+    max-width: 300px; /* Reduce image size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  .wave-emoji {
+    font-size: 1em;
+  }
+
+  .text-content p {
+    font-size: 12px;
+  }
+
+  .hero-image, .section-image {
+    max-width: 200px; /* Further reduce image size for very small screens */
+  }
+}
+
 /* Keyframes for Animation */
 @keyframes fadeInOut {
   0% {

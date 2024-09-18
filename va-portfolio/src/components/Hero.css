@@ -74,3 +74,60 @@
 .hero-button:hover {
   background-color: #e63946;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column; /* Stack text and image vertically */
+    gap: 20px; /* Adjust gap between elements */
+  }
+
+  .hero-text {
+    text-align: center; /* Center text on mobile */
+    max-width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 2.5rem; /* Adjust heading size for mobile */
+  }
+
+  .hero-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .hero-button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  .hero-image img {
+    max-width: 80%; /* Reduce image size on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 2rem; /* Further reduce heading size for smaller screens */
+  }
+
+  .hero-text h2 {
+    font-size: 1.2rem;
+  }
+
+  .hero-text p {
+    font-size: 0.9rem;
+  }
+
+  .hero-button {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+
+  .hero-image img {
+    max-width: 70%; /* Reduce image size further for very small screens */
+  }
+}
